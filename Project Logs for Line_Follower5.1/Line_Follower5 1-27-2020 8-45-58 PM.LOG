@@ -1,0 +1,151 @@
+Removed Pin From Net: NetName=3.3V.1 Pin=Boot-1
+Removed Pin From Net: NetName=NetBoot_2 Pin=Boot-2
+Removed Pin From Net: NetName=GND.1 Pin=Boot-3
+Removed Pin From Net: NetName=NetES1_22 Pin=J1-1
+Removed Pin From Net: NetName=NetES1_21 Pin=J1-2
+Removed Pin From Net: NetName=NetES1_20 Pin=J1-3
+Removed Pin From Net: NetName=NetES1_19 Pin=J1-4
+Removed Pin From Net: NetName=GPIO0.1 Pin=J1-5
+Removed Pin From Net: NetName=GPIO2.1 Pin=J1-6
+Removed Pin From Net: NetName=GPIO15.1 Pin=J1-7
+Removed Pin From Net: NetName=GND.1 Pin=J1-8
+Removed Pin From Net: NetName=3.3V1 Pin=J2-1
+Removed Pin From Net: NetName=NetES1_7 Pin=J2-2
+Removed Pin From Net: NetName=NetES1_6 Pin=J2-3
+Removed Pin From Net: NetName=NetES1_5 Pin=J2-4
+Removed Pin From Net: NetName=NetES1_4 Pin=J2-5
+Removed Pin From Net: NetName=NetES1_3 Pin=J2-6
+Removed Pin From Net: NetName=NetES1_2 Pin=J2-7
+Removed Pin From Net: NetName=RST1 Pin=J2-8
+Removed Pin From Net: NetName=GND Pin=LED_Power-2
+Removed Pin From Net: NetName=RST1 Pin=R1-1
+Removed Pin From Net: NetName=3.3V1 Pin=R1-2
+Removed Pin From Net: NetName=GPIO0.1 Pin=R2-1
+Removed Pin From Net: NetName=NetBoot_2 Pin=R2-2
+Removed Pin From Net: NetName=RST1 Pin=RST-1
+Removed Pin From Net: NetName=GND1 Pin=RST-2
+Change Component Designator: OldDesignator=Boot-2 NewDesignator=Boot
+Change Component Designator: OldDesignator=J1-2 NewDesignator=J1
+Change Component Designator: OldDesignator=J2-2 NewDesignator=J2
+Change Component Designator: OldDesignator=R1-2 NewDesignator=R1
+Change Component Designator: OldDesignator=R2-2 NewDesignator=R2
+Change Component Designator: OldDesignator=RST2 NewDesignator=RST
+Added Component: Designator=Boot-2(SW102)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Switch 102 On Board"; VariantName = "[No Variations]"
+Added Component: Designator=ES1-2(ESP-8266 V12)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J1-2(HEADER x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2-2(HEADER x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1-2(Res 0805(2012))
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2-2(Res 0805(2012))
+Add component. Clean all parameters for all variants
+Added Component: Designator=RST2(BUTTON_2P_SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V.1 Pin=Boot-2-1
+Added Pin To Net: NetName=NetBoot_2 Pin=Boot-2-2
+Added Pin To Net: NetName=GND.1 Pin=Boot-2-3
+Added Pin To Net: NetName=NetES1_22 Pin=J1-2-1
+Added Pin To Net: NetName=NetES1_21 Pin=J1-2-2
+Added Pin To Net: NetName=NetES1_20 Pin=J1-2-3
+Added Pin To Net: NetName=NetES1_19 Pin=J1-2-4
+Added Pin To Net: NetName=GPIO0.1 Pin=J1-2-5
+Added Pin To Net: NetName=GPIO2.1 Pin=J1-2-6
+Added Pin To Net: NetName=GPIO15.1 Pin=J1-2-7
+Added Pin To Net: NetName=GND.1 Pin=J1-2-8
+Added Pin To Net: NetName=3.3V1 Pin=J2-2-1
+Added Pin To Net: NetName=NetES1_7 Pin=J2-2-2
+Added Pin To Net: NetName=NetES1_6 Pin=J2-2-3
+Added Pin To Net: NetName=NetES1_5 Pin=J2-2-4
+Added Pin To Net: NetName=NetES1_4 Pin=J2-2-5
+Added Pin To Net: NetName=NetES1_3 Pin=J2-2-6
+Added Pin To Net: NetName=NetES1_2 Pin=J2-2-7
+Added Pin To Net: NetName=RST1 Pin=J2-2-8
+Added Pin To Net: NetName=RST1 Pin=R1-2-1
+Added Pin To Net: NetName=3.3V1 Pin=R1-2-2
+Added Pin To Net: NetName=GPIO0.1 Pin=R2-2-1
+Added Pin To Net: NetName=NetBoot_2 Pin=R2-2-2
+Added Pin To Net: NetName=RST1 Pin=RST2-1
+Added Pin To Net: NetName=GND1 Pin=RST2-2
+Added Pin To Net: NetName=3.3V2 Pin=ES1-2-8
+Added Pin To Net: NetName=3.3V2 Pin=J2-2-1
+Added Pin To Net: NetName=3.3V2 Pin=R1-2-2
+Added Net: Name=3.3V2
+Added Pin To Net: NetName=3.3V.2 Pin=Boot-2-1
+Added Net: Name=3.3V.2
+Added Pin To Net: NetName=GND2 Pin=RST2-2
+Added Net: Name=GND2
+Added Pin To Net: NetName=GND.2 Pin=Boot-2-3
+Added Pin To Net: NetName=GND.2 Pin=ES1-2-15
+Added Pin To Net: NetName=GND.2 Pin=J1-2-8
+Added Net: Name=GND.2
+Added Pin To Net: NetName=GPIO0.2 Pin=ES1-2-18
+Added Pin To Net: NetName=GPIO0.2 Pin=J1-2-5
+Added Pin To Net: NetName=GPIO0.2 Pin=R2-2-1
+Added Net: Name=GPIO0.2
+Added Pin To Net: NetName=GPIO2.2 Pin=ES1-2-17
+Added Pin To Net: NetName=GPIO2.2 Pin=J1-2-6
+Added Net: Name=GPIO2.2
+Added Pin To Net: NetName=GPIO15.2 Pin=ES1-2-16
+Added Pin To Net: NetName=GPIO15.2 Pin=J1-2-7
+Added Net: Name=GPIO15.2
+Added Pin To Net: NetName=NetBoot-2_2 Pin=Boot-2-2
+Added Pin To Net: NetName=NetBoot-2_2 Pin=R2-2-2
+Added Net: Name=NetBoot-2_2
+Added Pin To Net: NetName=NetES1-2_2 Pin=ES1-2-2
+Added Pin To Net: NetName=NetES1-2_2 Pin=J2-2-7
+Added Net: Name=NetES1-2_2
+Added Pin To Net: NetName=NetES1-2_3 Pin=ES1-2-3
+Added Pin To Net: NetName=NetES1-2_3 Pin=J2-2-6
+Added Net: Name=NetES1-2_3
+Added Pin To Net: NetName=NetES1-2_4 Pin=ES1-2-4
+Added Pin To Net: NetName=NetES1-2_4 Pin=J2-2-5
+Added Net: Name=NetES1-2_4
+Added Pin To Net: NetName=NetES1-2_5 Pin=ES1-2-5
+Added Pin To Net: NetName=NetES1-2_5 Pin=J2-2-4
+Added Net: Name=NetES1-2_5
+Added Pin To Net: NetName=NetES1-2_6 Pin=ES1-2-6
+Added Pin To Net: NetName=NetES1-2_6 Pin=J2-2-3
+Added Net: Name=NetES1-2_6
+Added Pin To Net: NetName=NetES1-2_7 Pin=ES1-2-7
+Added Pin To Net: NetName=NetES1-2_7 Pin=J2-2-2
+Added Net: Name=NetES1-2_7
+Added Pin To Net: NetName=NetES1-2_19 Pin=ES1-2-19
+Added Pin To Net: NetName=NetES1-2_19 Pin=J1-2-4
+Added Net: Name=NetES1-2_19
+Added Pin To Net: NetName=NetES1-2_20 Pin=ES1-2-20
+Added Pin To Net: NetName=NetES1-2_20 Pin=J1-2-3
+Added Net: Name=NetES1-2_20
+Added Pin To Net: NetName=NetES1-2_21 Pin=ES1-2-21
+Added Pin To Net: NetName=NetES1-2_21 Pin=J1-2-2
+Added Net: Name=NetES1-2_21
+Added Pin To Net: NetName=NetES1-2_22 Pin=ES1-2-22
+Added Pin To Net: NetName=NetES1-2_22 Pin=J1-2-1
+Added Net: Name=NetES1-2_22
+Added Pin To Net: NetName=RST2 Pin=ES1-2-1
+Added Pin To Net: NetName=RST2 Pin=J2-2-8
+Added Pin To Net: NetName=RST2 Pin=R1-2-1
+Added Pin To Net: NetName=RST2 Pin=RST2-1
+Added Net: Name=RST2
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component Boot-2 SW102A
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component Boot SW102A
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component ES1-2 ESP8266-V12
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component ES1 ESP8266-V12
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component J1-2 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component J1 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component J2-2 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component J2 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component R1-2 10K/0805
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component R1 10K/0805
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component R1 330R
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component R2-2 10K/0805
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component R2 10K/0805
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component R2 10K
+Added Member To Class: ClassName=ESP8266_base5.1-2 Member=Component RST2 Button-2pin
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component RST Button-2pin
+Added Room: Name=ESP8266_base5.1
+Added Room: Name=ESP8266_base5.1-2
+Added Room: Name=Line_Follower5.1

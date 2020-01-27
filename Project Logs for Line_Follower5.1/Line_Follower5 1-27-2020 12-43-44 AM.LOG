@@ -1,0 +1,52 @@
+Change Component Designator: OldDesignator=R1_1 NewDesignator=R1
+Change Component Designator: OldDesignator=R2_1 NewDesignator=R2
+Added Pin To Net: NetName=3.3V.1 Pin=Boot-1
+Added Pin To Net: NetName=NetBoot_2 Pin=Boot-2
+Added Pin To Net: NetName=GND.1 Pin=Boot-3
+Added Pin To Net: NetName=RST1 Pin=ES1-1
+Added Pin To Net: NetName=NetES1_2 Pin=ES1-2
+Added Pin To Net: NetName=NetES1_3 Pin=ES1-3
+Added Pin To Net: NetName=NetES1_4 Pin=ES1-4
+Added Pin To Net: NetName=NetES1_5 Pin=ES1-5
+Added Pin To Net: NetName=NetES1_6 Pin=ES1-6
+Added Pin To Net: NetName=NetES1_7 Pin=ES1-7
+Added Pin To Net: NetName=3.3V1 Pin=ES1-8
+Added Pin To Net: NetName=GND.1 Pin=ES1-15
+Added Pin To Net: NetName=GPIO15.1 Pin=ES1-16
+Added Pin To Net: NetName=GPIO2.1 Pin=ES1-17
+Added Pin To Net: NetName=GPIO0.1 Pin=ES1-18
+Added Pin To Net: NetName=NetES1_19 Pin=ES1-19
+Added Pin To Net: NetName=NetES1_20 Pin=ES1-20
+Added Pin To Net: NetName=NetES1_21 Pin=ES1-21
+Added Pin To Net: NetName=NetES1_22 Pin=ES1-22
+Added Pin To Net: NetName=NetES1_22 Pin=J1-1
+Added Pin To Net: NetName=NetES1_21 Pin=J1-2
+Added Pin To Net: NetName=NetES1_20 Pin=J1-3
+Added Pin To Net: NetName=NetES1_19 Pin=J1-4
+Added Pin To Net: NetName=GPIO0.1 Pin=J1-5
+Added Pin To Net: NetName=GPIO2.1 Pin=J1-6
+Added Pin To Net: NetName=GPIO15.1 Pin=J1-7
+Added Pin To Net: NetName=GND.1 Pin=J1-8
+Added Pin To Net: NetName=3.3V1 Pin=J2-1
+Added Pin To Net: NetName=NetES1_7 Pin=J2-2
+Added Pin To Net: NetName=NetES1_6 Pin=J2-3
+Added Pin To Net: NetName=NetES1_5 Pin=J2-4
+Added Pin To Net: NetName=NetES1_4 Pin=J2-5
+Added Pin To Net: NetName=NetES1_3 Pin=J2-6
+Added Pin To Net: NetName=NetES1_2 Pin=J2-7
+Added Pin To Net: NetName=RST1 Pin=J2-8
+Added Pin To Net: NetName=RST1 Pin=R1-1
+Added Pin To Net: NetName=3.3V1 Pin=R1-2
+Added Pin To Net: NetName=GPIO0.1 Pin=R2-1
+Added Pin To Net: NetName=NetBoot_2 Pin=R2-2
+Added Pin To Net: NetName=RST1 Pin=RST-1
+Added Pin To Net: NetName=GND1 Pin=RST-2
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component Boot SW102A
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component ES1 ESP8266-V12
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component J1 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component J2 Header 8
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component R1 10K/0805
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component R1 330R
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component R2 10K/0805
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component R2 10K
+Added Member To Class: ClassName=ESP8266_base5.1 Member=Component RST Button-2pin

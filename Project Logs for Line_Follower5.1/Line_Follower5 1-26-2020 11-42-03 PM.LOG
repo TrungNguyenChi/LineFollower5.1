@@ -1,0 +1,76 @@
+Added Component: Designator=Boot(SW102)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Switch 102 On Board"; VariantName = "[No Variations]"
+Added Component: Designator=ES1(ESP-8266 V12)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J1(HEADER x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2(HEADER x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(Res 0805(2012))
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(Res 0805(2012))
+Add component. Clean all parameters for all variants
+Added Component: Designator=RST(BUTTON_2P_SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V1 Pin=ES1-8
+Added Pin To Net: NetName=3.3V1 Pin=J2-1
+Added Pin To Net: NetName=3.3V1 Pin=R1-2
+Added Net: Name=3.3V1
+Added Pin To Net: NetName=3.3V.1 Pin=Boot-1
+Added Net: Name=3.3V.1
+Added Pin To Net: NetName=GND1 Pin=RST-2
+Added Net: Name=GND1
+Added Pin To Net: NetName=GND.1 Pin=Boot-3
+Added Pin To Net: NetName=GND.1 Pin=ES1-15
+Added Pin To Net: NetName=GND.1 Pin=J1-8
+Added Net: Name=GND.1
+Added Pin To Net: NetName=GPIO0.1 Pin=ES1-18
+Added Pin To Net: NetName=GPIO0.1 Pin=J1-5
+Added Pin To Net: NetName=GPIO0.1 Pin=R2-1
+Added Net: Name=GPIO0.1
+Added Pin To Net: NetName=GPIO2.1 Pin=ES1-17
+Added Pin To Net: NetName=GPIO2.1 Pin=J1-6
+Added Net: Name=GPIO2.1
+Added Pin To Net: NetName=GPIO15.1 Pin=ES1-16
+Added Pin To Net: NetName=GPIO15.1 Pin=J1-7
+Added Net: Name=GPIO15.1
+Added Pin To Net: NetName=NetBoot_2 Pin=Boot-2
+Added Pin To Net: NetName=NetBoot_2 Pin=R2-2
+Added Net: Name=NetBoot_2
+Added Pin To Net: NetName=NetES1_2 Pin=ES1-2
+Added Pin To Net: NetName=NetES1_2 Pin=J2-7
+Added Net: Name=NetES1_2
+Added Pin To Net: NetName=NetES1_3 Pin=ES1-3
+Added Pin To Net: NetName=NetES1_3 Pin=J2-6
+Added Net: Name=NetES1_3
+Added Pin To Net: NetName=NetES1_4 Pin=ES1-4
+Added Pin To Net: NetName=NetES1_4 Pin=J2-5
+Added Net: Name=NetES1_4
+Added Pin To Net: NetName=NetES1_5 Pin=ES1-5
+Added Pin To Net: NetName=NetES1_5 Pin=J2-4
+Added Net: Name=NetES1_5
+Added Pin To Net: NetName=NetES1_6 Pin=ES1-6
+Added Pin To Net: NetName=NetES1_6 Pin=J2-3
+Added Net: Name=NetES1_6
+Added Pin To Net: NetName=NetES1_7 Pin=ES1-7
+Added Pin To Net: NetName=NetES1_7 Pin=J2-2
+Added Net: Name=NetES1_7
+Added Pin To Net: NetName=NetES1_19 Pin=ES1-19
+Added Pin To Net: NetName=NetES1_19 Pin=J1-4
+Added Net: Name=NetES1_19
+Added Pin To Net: NetName=NetES1_20 Pin=ES1-20
+Added Pin To Net: NetName=NetES1_20 Pin=J1-3
+Added Net: Name=NetES1_20
+Added Pin To Net: NetName=NetES1_21 Pin=ES1-21
+Added Pin To Net: NetName=NetES1_21 Pin=J1-2
+Added Net: Name=NetES1_21
+Added Pin To Net: NetName=NetES1_22 Pin=ES1-22
+Added Pin To Net: NetName=NetES1_22 Pin=J1-1
+Added Net: Name=NetES1_22
+Added Pin To Net: NetName=RST1 Pin=ES1-1
+Added Pin To Net: NetName=RST1 Pin=J2-8
+Added Pin To Net: NetName=RST1 Pin=R1-1
+Added Pin To Net: NetName=RST1 Pin=RST-1
+Added Net: Name=RST1
+Added Class: Name=ESP8266_base5.1

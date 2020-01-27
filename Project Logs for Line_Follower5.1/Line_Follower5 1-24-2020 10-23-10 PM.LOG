@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=GND Pin=LM1117-1
+Removed Pin From Net: NetName=3.3V Pin=LM1117-2
+Removed Pin From Net: NetName=5V Pin=LM1117-3
+Removed Pin From Net: NetName=Vin_1 Pin=LM7805-1
+Removed Pin From Net: NetName=GND Pin=LM7805-2
+Removed Pin From Net: NetName=5V Pin=LM7805-3
+Removed Member From Class: ClassName=Line_Follower5.1 Member=LM1117
+Removed Member From Class: ClassName=Line_Follower5.1 Member=LM7805
+Added Component: Designator=IC5V(QTO-220)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "LM7808"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "LM7805"; VariantName = "[No Variations]"
+Added Component: Designator=U?(TO220-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Creator"; Value = "Nguyen Ba Bien"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Website"; Value = "http://group3i.net"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vin_1 Pin=IC5V-1
+Added Pin To Net: NetName=GND Pin=IC5V-2
+Added Pin To Net: NetName=5V Pin=IC5V-3
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=3.3V Pin=U?-2
+Added Pin To Net: NetName=5V Pin=U?-3
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component IC5V LM7805
+Added Member To Class: ClassName=Line_Follower5.1 Member=Component U? LM1117-3.3V
+Added Room: Name=Line_Follower5.1
